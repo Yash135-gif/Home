@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown{
+    position: absolute;
+    margin-top: 4px;
+    margin-right: 80px;
+    display: block;
+  
+}
+.dropdown ul li{
+    display: block;
+    margin: 0;
+   
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+
+
